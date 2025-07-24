@@ -1,0 +1,403 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   ASMA Modest Couture
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Roboto&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Roboto', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+ </head>
+ <body class="bg-white text-gray-900">
+    <header class="shadow-md sticky top-0 bg-white z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
+        <a class="text-3xl font-bold text-yellow-700 tracking-wide" href="#">
+          ASMA Modest Couture
+        </a>
+        <nav class="hidden md:flex space-x-8 text-lg font-medium text-gray-700">
+          <a class="hover:text-yellow-600 transition" href="#dresses">
+            Dresses
+          </a>
+          <a class="hover:text-yellow-600 transition" href="#hijabs">
+            Hijabs
+          </a>
+          <a class="hover:text-yellow-600 transition" href="#bags">
+            Bags
+          </a>
+          <a class="hover:text-yellow-600 transition" href="#shoes">
+            Shoes
+          </a>
+          <a class="hover:text-yellow-600 transition" href="#contact">
+            Contact
+          </a>
+        </nav>
+        <button class="md:hidden focus:outline-none" id="mobile-menu-button">
+          <i class="fas fa-bars text-2xl text-yellow-700">
+          </i>
+        </button>
+      </div>
+      <nav class="md:hidden hidden bg-white border-t border-gray-200" id="mobile-menu">
+        <a class="block px-4 py-3 border-b border-gray-200 hover:bg-yellow-50 text-yellow-700 font-semibold" href="#dresses">
+          Dresses
+        </a>
+        <a class="block px-4 py-3 border-b border-gray-200 hover:bg-yellow-50 text-yellow-700 font-semibold" href="#hijabs">
+          Hijabs
+        </a>
+        <a class="block px-4 py-3 border-b border-gray-200 hover:bg-yellow-50 text-yellow-700 font-semibold" href="#bags">
+        Bags
+        </a>
+        <a class="block px-4 py-3 border-b border-gray-200 hover:bg-yellow-50 text-yellow-700 font-semibold" href="#shoes">
+          Shoes
+        </a>
+        <a class="block px-4 py-3 hover:bg-yellow-50 text-yellow-700 font-semibold" href="#contact">
+          Contact
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="relative bg-yellow-50">
+        <img alt="Elegant modest fashion showcase with models wearing dresses, hijabs, bags, and shoes in a soft warm beige studio setting with gold accents" class="w-full object-cover h-60 sm:h-96" height="600" src="https://storage.googleapis.com/a1aa/image/46aa8608-2c83-4ab4-29f3-16e8325d398a.jpg" width="1920"/>
+        <div class="absolute inset-0 bg-yellow-900 bg-opacity-30 flex flex-col justify-center items-center text-center px-4">
+          <h1 class="text-yellow-100 text-4xl sm:text-6xl font-bold drop-shadow-lg">
+            ASMA Modest Couture
+          </h1>
+          <p class="mt-4 text-yellow-200 text-lg sm:text-2xl max-w-3xl">
+            Elegant dresses, hijabs, bags, and shoes crafted for modest fashion lovers.
+          </p>
+          <a class="mt-8 inline-block bg-yellow-700 hover:bg-yellow-800 text-yellow-100 font-semibold py-3 px-8 rounded shadow-lg transition" href="#dresses">
+            Shop Now
+          </a>
+        </div>
+      </section>
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16" id="dresses">
+    <h2 class="text-3xl font-bold text-yellow-700 mb-8 text-center">
+     Dresses
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+     <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+      <img alt="Elegant long beige dress with lace details on sleeves and hem, modest style with high neckline and flowing skirt" class="w-full h-64 object-cover" height="500" src="https://storage.googleapis.com/a1aa/image/dae38388-da3d-49fb-df40-1bab0f3d26ad.jpg" width="400"/>
+      <div class="p-4">
+       <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+        Lace Detail Beige Dress
+       </h3>
+       <p class="text-yellow-600 font-medium mb-4">
+        $120.00
+       </p>
+       <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+        Add to Cart
+       </button>
+      </div>
+     </article>
+     <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+      <img alt="Classic dark brown modest dress with button front, long sleeves, and a belt at the waist, knee-length" class="w-full h-64 object-cover" height="500" src="https://storage.googleapis.com/a1aa/image/9521f27a-6521-4425-3585-370f36691566.jpg" width="400"/>
+      <div class="p-4">
+       <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+        Dark Brown Button Front Dress
+       </h3>
+       <p class="text-yellow-600 font-medium mb-4">
+        $110.00
+       </p>
+       <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+        Add to Cart
+       </button>
+      </div>
+     </article>
+     <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+      <img alt="Flowing light gold maxi dress with pleats, modest style with long sleeves and high neckline, soft fabric" class="w-full h-64 object-cover" height="500" src="https://storage.googleapis.com/a1aa/image/571dfcdf-5661-4094-5343-011cdbafb83e.jpg" width="400"/>
+      <div class="p-4">
+       <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+        Light Gold Pleated Maxi Dress
+       </h3>
+       <p class="text-yellow-600 font-medium mb-4">
+        $130.00
+       </p>
+       <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+        Add to Cart
+       </button>
+      </div>
+     </article>
+     <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+      <img alt="Soft brown dress with embroidered sleeves, modest cut with flowing skirt and high collar" class="w-full h-64 object-cover" height="500" src="https://storage.googleapis.com/a1aa/image/52e11a38-9ac6-4752-25d8-83f83c30c906.jpg" width="400"/>
+      <div class="p-4">
+       <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+        Brown Embroidered Dress
+       </h3>
+       <p class="text-yellow-600 font-medium mb-4">
+        $125.00
+       </p>
+       <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+        Add to Cart
+       </button>
+      </div>
+     </article>
+    </div>
+   </section>
+   
+      <section class="bg-yellow-50 py-16" id="hijabs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-yellow-700 mb-8 text-center">
+          Hijabs
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+            <img alt="Soft chiffon hijab in light beige color, lightweight and flowing fabric draped elegantly" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/73b16e03-c5bd-4f36-7ec9-60c5f752423e.jpg" width="400"/>
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+                Light Beige Chiffon Hijab
+              </h3>
+              <p class="text-yellow-600 font-medium mb-4">
+                $25.00
+              </p>
+              <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+                Add to Cart
+              </button>
+            </div>
+          </article>
+          <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+            <img alt="Matte satin hijab in warm gold color, smooth texture with subtle sheen, modest style" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/09e88b74-8056-440b-03a5-a7170078c2ab.jpg" width="400"/>
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+                Warm Gold Satin Hijab
+              </h3>
+              <p class="text-yellow-600 font-medium mb-4">
+                $30.00
+              </p>
+              <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+                Add to Cart
+              </button>
+            </div>
+          </article>
+          <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+            <img alt="Light brown cotton hijab, breathable fabric with soft texture, perfect for everyday wear" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/5ccb8052-2701-41a7-bded-1d64980b4d95.jpg" width="400"/>
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+                Light Brown Cotton Hijab
+              </h3>
+              <p class="text-yellow-600 font-medium mb-4">
+                $20.00
+              </p>
+              <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+                Add to Cart
+              </button>
+            </div>
+          </article>
+          <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+            <img alt="Dark brown silk hijab with smooth and shiny texture, luxurious and elegant modest fashion accessory" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/6912dcbb-28de-4c64-eb24-2a7e65c201ce.jpg" width="400"/>
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+                Dark Brown Silk Hijab
+              </h3>
+              <p class="text-yellow-600 font-medium mb-4">
+                $35.00
+              </p>
+              <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+                Add to Cart
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16" id="bags">
+        <h2 class="text-3xl font-bold text-yellow-700 mb-8 text-center">
+          Bags
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+          <img alt="Elegant light brown leather handbag with gold hardware, medium size with top handles and detachable strap" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/c4b12140-1d11-4a62-dbb1-a25bd7316f8c.jpg" width="400"/>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+              Light Brown Leather Handbag
+            </h3>
+            <p class="text-yellow-600 font-medium mb-4">
+              $150.00
+            </p>
+            <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+              Add to Cart
+            </button>
+          </div>
+        </article>
+        <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+          <img alt="Classic dark brown modest tote bag with simple design, spacious interior and sturdy handles" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/e5eec10d-cfa0-4f5a-ee30-fbab02d87fa7.jpg" width="400"/>
+            <div class="p-4">
+            <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+              Dark Brown Modest Tote Bag
+            </h3>
+            <p class="text-yellow-600 font-medium mb-4">
+              $140.00
+            </p>
+            <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+              Add to Cart
+            </button>
+          </div>
+        </article>
+        <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+          <img alt="Soft gold crossbody bag with gold chain strap, compact and elegant design for modest fashion" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/e9eeb544-d5fa-4707-781e-e59cb659cacb.jpg" width="400"/>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+              Soft Gold Crossbody Bag
+            </h3>
+            <p class="text-yellow-600 font-medium mb-4">
+              $95.00
+            </p>
+            <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+              Add to Cart
+            </button>
+          </div>
+        </article>
+        <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+          <img alt="Brown woven handbag with leather accents, medium size with top handles, perfect for modest casual wear" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/7241e408-03bc-4555-36c2-a11c1056b6b8.jpg" width="400"/>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+              Brown Woven Handbag
+            </h3>
+            <p class="text-yellow-600 font-medium mb-4">
+              $110.00
+            </p>
+            <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+              Add to Cart
+            </button>
+          </div>
+        </article>
+        
+      </section>
+      <section class="bg-yellow-50 py-16" id="shoes">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-yellow-700 mb-8 text-center">
+          Shoes
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+            <img alt="Beige modest heeled shoes with closed toe and ankle strap, elegant and comfortable design" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/d587fd00-b97e-409b-5cc7-9739cfb30dfd.jpg" width="400"/>
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+                Beige Heeled Shoes
+              </h3>
+              <p class="text-yellow-600 font-medium mb-4">
+                $85.00
+              </p>
+              <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+                Add to Cart
+              </button>
+            </div>
+          </article>
+          <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+            <img alt="Dark brown modest flats with rounded toe and cushioned sole, perfect for everyday wear" class="w-full h-64 object-cover" height="400" src="y.avif" width="400"/>
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+                Ladies′ Comfortable Shoes for Summer
+              
+              </h3>
+              <p class="text-yellow-600 font-medium mb-4">
+                $16.00
+              </p>
+              <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+                Add to Cart
+              </button>
+            </div>
+          </article>
+          <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+            <img alt="Soft gold slip-on shoes with modest design, comfortable and stylish for casual outings" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/6608b680-a2f2-4c1b-5d70-7f158d5f9e3d.jpg" width="400"/>
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+                Soft Gold Slip-On Shoes
+              </h3>
+              <p class="text-yellow-600 font-medium mb-4">
+                $70.00
+              </p>
+              <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+                Add to Cart
+              </button>
+            </div>
+          </article>
+          <article class="border border-yellow-300 rounded-lg shadow hover:shadow-lg transition overflow-hidden">
+            <img alt="Brown modest ankle boots with low heel and zipper, stylish and comfortable for modest fashion" class="w-full h-64 object-cover" height="400" src="https://storage.googleapis.com/a1aa/image/eb1194b8-81de-436f-63cd-02dcde25e02e.jpg" width="400"/>
+            <div class="p-4">
+              <h3 class="text-xl font-semibold text-yellow-800 mb-2">
+                Brown Ankle Boots
+              </h3>
+              <p class="text-yellow-600 font-medium mb-4">
+                $95.00
+              </p>
+              <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 py-2 rounded transition">
+                Add to Cart
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16" id="contact">
+        <h2 class="text-3xl font-bold text-yellow-700 mb-8 text-center">
+          Contact Us
+        </h2>
+        <div class="max-w-3xl mx-auto bg-yellow-50 rounded-lg shadow p-8">
+          <form action="#" class="space-y-6" method="POST">
+            <div>
+            <label class="block text-yellow-800 font-semibold mb-2" for="name">
+              Name
+            </label>
+            <input class="w-full border border-yellow-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500" id="name" name="name" placeholder="Your full name" required="" type="text"/>
+            </div>
+            <div>
+            <label class="block text-yellow-800 font-semibold mb-2" for="email">
+              Email
+            </label>
+            <input class="w-full border border-yellow-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500" id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+            </div>
+            <div>
+              <label class="block text-yellow-800 font-semibold mb-2" for="message">
+                Message
+              </label>
+              <textarea class="w-full border border-yellow-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-yellow-500" id="message" name="message" placeholder="Write your message here" required="" rows="4"></textarea>
+            </div>
+            <button class="w-full bg-yellow-700 hover:bg-yellow-800 text-yellow-100 font-semibold py-3 rounded transition" type="submit">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-yellow-700 text-yellow-100 py-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+        <p class="text-center px-6 ">
+          © 2024 ASMA Modest Couture.
+        </p>
+        <div class="flex space-x-6 mt-4 md:mt-0">
+        <a aria-label="Facebook" class="hover:text-yellow-300 transition" href="#">
+          <i class="fab fa-facebook-f text-xl">
+          </i>
+        </a>
+        <a aria-label="Instagram" class="hover:text-yellow-300 transition" href="#">
+          <i class="fab fa-instagram text-xl">
+          </i>
+        </a>
+        <a aria-label="Twitter" class="hover:text-yellow-300 transition" href="#">
+          <i class="fab fa-twitter text-xl">
+          </i>
+        </a>
+        <a aria-label="Pinterest" class="hover:text-yellow-300 transition" href="#">
+          <i class="fab fa-pinterest-p text-xl">
+          </i>
+        </a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+  </body>
+</html>
